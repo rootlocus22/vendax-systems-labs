@@ -16,14 +16,14 @@ export default function Philosophy() {
                         >
                             <span className="text-electric font-bold uppercase tracking-widest text-sm mb-4 block">Our Philosophy</span>
                             <h2 className="text-4xl font-bold text-navy mb-8 leading-tight">
-                                Bridging the Digital Gap in American Logistics
+                                Empowering Global Business with AI
                             </h2>
                             <p className="text-lg text-slate-600 leading-relaxed mb-6">
-                                For decades, the trucking industry has been served by fragmented, legacy software that treats compliance as an afterthought.
-                                Carriers have been forced to navigate clunky government portals, expensive legal consultants, and manual spreadsheets just to keep their trucks on the road.
+                                For decades, the software industry has been served by fragmented, legacy thinking that treats AI as an afterthought.
+                                Businesses have been forced to navigate clunky interfaces, expensive consultants, and manual processes just to keep moving.
                             </p>
                             <p className="text-lg text-slate-600 leading-relaxed">
-                                We see a different future. At Vendax Systems Labs, we believe that compliance infrastructure should be as invisible and reliable as the asphalt beneath your wheels.
+                                We see a different future. At Vendax Systems Labs, we believe that software infrastructure should be as invisible and reliable as the code it runs on.
                             </p>
                         </motion.div>
 
@@ -34,16 +34,16 @@ export default function Philosophy() {
                             transition={{ delay: 0.2 }}
                             className="bg-slate-50 p-10 rounded-3xl border border-slate-100"
                         >
-                            <h3 className="text-2xl font-bold text-navy mb-6">The "Chaos" Problem</h3>
+                            <h3 className="text-2xl font-bold text-navy mb-6">The Engineering Challenge</h3>
                             <p className="text-slate-600 mb-6 leading-relaxed">
-                                The average carrier spends countless hours annually just managing registration renewals, fuel tax reports, and authority updates.
-                                This "administrative friction" is the silent killer of profitability in the supply chain.
+                                The average business spends countless hours annually just managing repetitive tasks and data entry.
+                                This "administrative friction" is the silent killer of productivity and growth.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-navy mb-6 mt-10">The Vendax Solution</h3>
+                            <h3 className="text-2xl font-bold text-navy mb-6 mt-10">Our Approach</h3>
                             <p className="text-slate-600 leading-relaxed">
-                                We don't just digitize forms; we re-engineer the workflow. By connecting directly with federal and state databases via secure APIs,
-                                we eliminate the human error and latency that plague traditional filing methods. We turn a week of paperwork into a few clicks.
+                                We don't just digitize forms; we re-engineer the workflow. By connecting directly with advanced AI models and secure APIs,
+                                we eliminate the human error and latency that plague traditional methods. We turn weeks of work into a few clicks.
                             </p>
                         </motion.div>
 

@@ -14,26 +14,26 @@ export default function ProductShowcase() {
                     className="text-center mb-16"
                 >
                     <span className="text-electric font-semibold uppercase tracking-wider text-sm">Our Flagship Product</span>
-                    <h2 className="text-4xl font-bold text-navy mt-2">The Future of Truck Tax Filing</h2>
+                    <h2 className="text-4xl font-bold text-navy mt-2">The Future of Career Advancement</h2>
                 </motion.div>
 
                 <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-slate-100 grid md:grid-cols-2 gap-0 max-w-6xl mx-auto">
                     {/* Content Side */}
                     <div className="p-12 md:p-16 flex flex-col justify-center">
                         <div className="flex items-center gap-3 mb-6">
-                            <div className="h-10 w-10 bg-electric rounded-lg flex items-center justify-center text-white font-bold text-xl">Q</div>
-                            <h3 className="text-2xl font-bold text-navy">QuickTruckTax</h3>
+                            <div className="h-10 w-10 bg-electric rounded-lg flex items-center justify-center text-white font-bold text-xl">E</div>
+                            <h3 className="text-2xl font-bold text-navy">ExpertResume.us</h3>
                         </div>
 
                         <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                            The fastest, AI-powered IRS Form 2290 filing solution for owner-operators. Reducing tax filing time from hours to minutes with automated accuracy checks.
+                            The comprehensive, AI-powered career platform. Build ATS-friendly resumes, generate cover letters, and optimize your LinkedIn profile in minutes.
                         </p>
 
                         <div className="space-y-4 mb-10">
                             {[
-                                { icon: Zap, text: "Authorized E-File Integration" },
-                                { icon: Shield, text: "Bank-Level Security (AES-256)" },
-                                { icon: Check, text: "Instant Schedule 1 Delivery" }
+                                { icon: Zap, text: "AI Resume Builder" },
+                                { icon: Shield, text: "ATS Optimization Engine" },
+                                { icon: Check, text: "Real-time Content Suggestions" }
                             ].map((item, idx) => (
                                 <div key={idx} className="flex items-center gap-3">
                                     <div className="p-2 bg-blue-50 text-electric rounded-full">
@@ -45,13 +45,13 @@ export default function ProductShowcase() {
                         </div>
 
                         <motion.a
-                            href="https://quicktrucktax.com"
+                            href="https://expertresume.us"
                             target="_blank"
                             whileHover={{ scale: 1.02 }}
                             whileTap={{ scale: 0.98 }}
                             className="inline-block text-center bg-navy hover:bg-slate-800 text-white font-semibold py-4 px-8 rounded-xl transition-colors"
                         >
-                            Visit QuickTruckTax.com
+                            Visit ExpertResume.us
                         </motion.a>
                     </div>
 

@@ -23,7 +23,7 @@ export default function Trust() {
                         transition={{ delay: 0.1 }}
                         className="text-xl text-slate-600 leading-relaxed font-medium"
                     >
-                        We don't hide behind chatbots. When you have a compliance question, you get a direct line to a specialist who knows the trucking industry inside out.
+                        We don't hide behind chatbots. When you have a product question, you get a direct line to a specialist who knows the technology inside out.
                     </motion.p>
                 </div>
 

@@ -22,7 +22,7 @@ export default function AboutPage() {
                         animate={{ opacity: 1, y: 0 }}
                         className="text-4xl md:text-6xl font-bold mb-6"
                     >
-                        Building the Future of Logistics
+                        Building the Future of Software
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
@@ -30,7 +30,7 @@ export default function AboutPage() {
                         transition={{ delay: 0.1 }}
                         className="text-xl text-slate-300 max-w-2xl mx-auto"
                     >
-                        Vendax Systems LLC is a technology holding company dedicated to modernizing the metabolic system of the American economy: the supply chain.
+                        Vendax Systems LLC is a technology company dedicated to engineering the next generation of SaaS products.
                     </motion.p>
                 </div>
             </section>
@@ -41,13 +41,13 @@ export default function AboutPage() {
                     <h2 className="text-3xl font-bold text-navy mb-8">Our Story</h2>
                     <div className="prose prose-lg text-slate-600">
                         <p className="mb-6">
-                            Founded in San Francisco, Vendax Systems LLC emerged from a simple observation: the logistics industry—responsible for moving 70% of all freight in the U.S.—was running on software built two decades ago.
+                            Founded in San Francisco, Vendax Systems LLC emerged from a simple observation: many critical industries were running on software built two decades ago.
                         </p>
                         <p className="mb-6">
-                            Independent owner-operators and small fleets were being left behind, forced to use clunky, expensive, and insecure tools to manage their compliance. We set out to change that.
+                            Businesses were being left behind, forced to use clunky, expensive, and insecure tools to manage their operations. We set out to change that.
                         </p>
                         <p>
-                            By combining top-tier Silicon Valley engineering talent with deep industry expertise, we build tools that are not just "compliant", but delightful to use. QuickTruckTax is just the beginning.
+                            By combining top-tier Silicon Valley engineering talent with deep AI expertise, we build tools that are not just functioning, but delightful to use.
                         </p>
                     </div>
                 </div>

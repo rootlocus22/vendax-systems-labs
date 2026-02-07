@@ -7,10 +7,10 @@ export default function Footer() {
                         V
                     </div>
                     <p className="max-w-xs mb-6 font-medium text-slate-300">
-                        Building the digital backbone of the logistics industry.
+                        Building the digital backbone of the modern economy.
                     </p>
                     <p className="max-w-xs mb-6 text-xs">
-                        QuickTruckTax is a product of Vendax Systems Labs. We engineer high-performance compliance infrastructure for the modern supply chain.
+                        Vendax Systems Labs is a team of AI engineers. We engineer high-performance software infrastructure for the world.
                     </p>
                     <div className="text-xs text-slate-500">
                         &copy; {new Date().getFullYear()} Vendax Systems Labs. All rights reserved.

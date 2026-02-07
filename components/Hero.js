@@ -33,13 +33,13 @@ export default function Hero() {
                     >
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-white/90 text-sm font-medium mb-8 backdrop-blur-md shadow-sm">
                             <span className="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_10px_rgba(34,197,94,0.6)]"></span>
-                            Serving 10,000+ Carriers Nationwide
+                            Engineering the Future of SaaS
                         </div>
 
                         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight leading-tight">
-                            Compliance Without <br className="hidden md:block" />
+                            AI Engineering <br className="hidden md:block" />
                             <span className="text-white relative">
-                                The Chaos
+                                for the World
                                 <svg className="absolute w-full h-3 -bottom-2 left-0 text-electric opacity-80" viewBox="0 0 100 10" preserveAspectRatio="none">
                                     <path d="M0 5 Q 50 10 100 5" stroke="currentColor" strokeWidth="8" fill="none" />
                                 </svg>
@@ -47,7 +47,7 @@ export default function Hero() {
                         </h1>
 
                         <p className="text-xl md:text-2xl text-slate-200 mb-10 max-w-2xl mx-auto leading-relaxed font-light shadow-black/50">
-                            We solve the boring, critical compliance problems so your trucks keep moving.
+                            We are a team of AI engineers passionate about producing world-class SaaS products.
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

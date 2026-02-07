@@ -34,13 +34,13 @@ export default function Mission() {
                         className="max-w-xl"
                     >
                         <h2 className="text-4xl font-bold text-navy mb-6 leading-tight">
-                            Solving the "boring" problems so you don't have to.
+                            Building Intelligent Software Solutions.
                         </h2>
                         <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                            Vendax Systems Labs combines modern Silicon Valley tech stacks with deep logistics expertise to solve the critical compliance hurdles trucking companies face every day.
+                            Vendax Systems Labs combines modern Silicon Valley tech stacks with deep engineering expertise to deliver scalable, high-impact SaaS products for the world.
                         </p>
                         <p className="text-lg text-slate-600 leading-relaxed">
-                            We believe that even mandatory government filings should be fast, secure, and delightfully simple to use.
+                            We believe that complex problems should be solved with elegant engineering and valid AI solutions.
                         </p>
                     </motion.div>
 

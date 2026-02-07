@@ -1,42 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FileText, Truck, Map, Receipt, Fuel } from "lucide-react";
+import { FileText, PenTool, Share2, UserCheck, LayoutDashboard } from "lucide-react";
 
 export default function Services() {
-    const services = [
-        {
-            title: "Form 2290 Filing",
-            desc: "The Heavy Vehicle Use Tax (HVUT) is a mandatory annual federal tax for vehicles with a gross weight of 55,000 pounds or more. Filing incorrectly can lead to significant penalties and registration blocks.",
-            benefit: "Get your stamped Schedule 1 in minutes directly from the IRS, ensuring your fleet stays road-legal without delays.",
-            icon: FileText
-        },
-        {
-            title: "MCS-150 Update",
-            desc: " The FMCSA requires all USDOT number holders to update their registration details every two years (biennial update), regardless of whether your company information has changed.",
-            benefit: "We automate this cycle, preventing deactivation of your authority and keeping your CSA scores accurate.",
-            icon: Truck
-        },
-        {
-            title: "UCR Registration",
-            desc: "The Unified Carrier Registration (UCR) takes the place of individual state registration systems. If you operate a truck in interstate or international commerce, this is non-negotiable.",
-            benefit: "Instant proof of payment and multi-state compliance through a single, streamlined dashboard.",
-            icon: Map
-        },
-        {
-            title: "Form 8849 Refund",
-            desc: "Did you sell a vehicle? Was one destroyed? You are entitled to a prorated tax refund from the IRS. Many carriers leave this money on the table due to complex paperwork.",
-            benefit: "We identify eligible refunds automatically and handle the reclaiming process for you.",
-            icon: Receipt
-        },
-        {
-            title: "IFTA Filing",
-            desc: "The International Fuel Tax Agreement simplifies fuel tax reporting for interstate carriers. However, calculating taxable miles and fuel purchase distribution across jurisdictions is prone to error.",
-            benefit: "Our system calculates exact tax liabilities across all jurisdictions, eliminating audit risks.",
-            icon: Fuel
-        }
-    ];
-
     return (
         <section id="services" className="py-24 bg-navy text-white relative overflow-hidden">
             {/* Background decoration */}
@@ -46,16 +13,47 @@ export default function Services() {
 
             <div className="container mx-auto px-6 relative z-10">
                 <div className="text-center mb-20 max-w-3xl mx-auto">
-                    <span className="text-electric font-semibold uppercase tracking-widest text-sm">Comprehensive Authority</span>
-                    <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 leading-tight">Regulatory Compliance, <br />Demystified.</h2>
+                    <span className="text-electric font-semibold uppercase tracking-widest text-sm">Our Product Suite</span>
+                    <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 leading-tight">Career Acceleration <br />Tools</h2>
                     <p className="text-slate-300 text-lg leading-relaxed">
-                        The logistics landscape is governed by a complex web of federal and state regulations.
-                        We provide the digital infrastructure to navigate them with precision, ensuring your operations never face a compliance bottleneck.
+                        We build specialized software solutions that solve real-world problems with AI precision.
+                        High-impact tools for the modern professional.
                     </p>
                 </div>
 
                 <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
-                    {services.map((service, i) => (
+                    {[
+                        {
+                            title: "AI Resume Builder",
+                            desc: "Create professional, ATS-optimized resumes that pass the screening algorithms used by 99% of Fortune 500 companies.",
+                            benefit: "Stand out with formatted, keyword-rich resumes generated in seconds.",
+                            icon: FileText
+                        },
+                        {
+                            title: "Cover Letter Generator",
+                            desc: "Instantly generate tailored cover letters that match your resume tone and specific job descriptions.",
+                            benefit: "Never write a generic cover letter again. Personalized and persuasive every time.",
+                            icon: PenTool
+                        },
+                        {
+                            title: "LinkedIn Optimization",
+                            desc: "Turn your LinkedIn profile into a recruiter magnet with AI-driven headline and summary enhancements.",
+                            benefit: "Increase profile visibility and attract more inbound opportunities.",
+                            icon: Share2
+                        },
+                        {
+                            title: "Career Coaching",
+                            desc: "Get personalized career advice and interview prep from our advanced AI career coach.",
+                            benefit: "Ace your interviews with confidence and strategic preparation.",
+                            icon: UserCheck
+                        },
+                        {
+                            title: "Job Application Tracker",
+                            desc: "Organize your job search with a smart dashboard that tracks every application and interview status.",
+                            benefit: "Stay organized and never miss a follow-up opportunity.",
+                            icon: LayoutDashboard // Using LayoutDashboard as a proxy for a tracker icon if needed, or stick to what's available.
+                        }
+                    ].map((service, i) => (
                         <motion.div
                             key={i}
                             initial={{ opacity: 0, y: 20 }}
