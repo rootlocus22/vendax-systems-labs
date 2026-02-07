@@ -77,7 +77,7 @@ export default function Header() {
                         </Link>
                     ))}
                     <a
-                        href="https://quicktrucktax.com"
+                        href="https://expertresume.us"
                         target="_blank"
                         className="bg-electric hover:bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-semibold transition-all hover:shadow-[0_0_15px_rgba(37,99,235,0.4)]"
                     >

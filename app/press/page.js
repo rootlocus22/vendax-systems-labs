@@ -17,11 +17,11 @@ export default function PressPage() {
                         <div>
                             <h2 className="text-2xl font-bold text-navy mb-4">About Vendax Systems</h2>
                             <p className="text-slate-600 leading-relaxed mb-6">
-                                Vendax Systems LLC is a technology holding company focused on modernizing the logistics compliance infrastructure.
-                                Our flagship product, QuickTruckTax, serves over 10,000 carriers nationwide, processing millions of dollars in tax filings annually.
+                                Vendax Systems LLC is a technology holding company focused on modernizing career development infrastructure.
+                                Our flagship product, ExpertResume.us, serves thousands of job seekers nationwide, generating professional resumes and cover letters in minutes.
                             </p>
                             <p className="text-slate-600 leading-relaxed">
-                                Founded in San Francisco, we combine Silicon Valley engineering with deep industry expertise to build the future of supply chain finance.
+                                Founded in San Francisco, we combine Silicon Valley engineering with deep industry expertise to build the future of work.
                             </p>
                         </div>
 
@@ -45,9 +45,9 @@ export default function PressPage() {
                         <h2 className="text-2xl font-bold text-navy mb-8">Latest News</h2>
                         <div className="bg-white p-6 rounded-xl border border-slate-100 mb-4">
                             <span className="text-sm text-electric font-semibold mb-2 block">December 10, 2025</span>
-                            <h3 className="text-xl font-bold text-navy mb-2">Vendax Systems Launches QuickTruckTax AI</h3>
+                            <h3 className="text-xl font-bold text-navy mb-2">Vendax Systems Launches ExpertResume.us</h3>
                             <p className="text-slate-600">
-                                New automated feature reduces heavy vehicle tax filing time by 60% for independent owner-operators.
+                                New AI-powered platform helps job seekers create ATS-friendly resumes 10x faster.
                             </p>
                         </div>
                         {/* More placeholder news items can go here */}
@@ -56,6 +56,6 @@ export default function PressPage() {
             </section>
 
             <Footer />
-        </main>
+        </main >
     );
 }
