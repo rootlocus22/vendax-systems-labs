@@ -3,9 +3,7 @@ export default function Footer() {
         <footer className="bg-navy text-slate-400 py-16 border-t border-slate-800">
             <div className="container mx-auto px-6 grid md:grid-cols-4 gap-12 text-sm">
                 <div className="col-span-2">
-                    <div className="h-10 w-10 bg-gradient-to-br from-electric to-blue-400 rounded-lg flex items-center justify-center text-white font-bold mb-6">
-                        V
-                    </div>
+                    <img src="/logo.png" alt="Vendax Logo" className="h-12 w-auto mb-6" />
                     <p className="max-w-xs mb-6 font-medium text-slate-300">
                         Building the digital backbone of the modern economy.
                     </p>

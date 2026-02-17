@@ -58,10 +58,8 @@ export default function Header() {
         >
             <div className="container mx-auto px-6 flex items-center justify-between">
                 <Link href="/" className="flex items-center gap-2 cursor-pointer">
-                    <div className="h-8 w-8 bg-gradient-to-br from-electric to-blue-400 rounded-lg flex items-center justify-center shadow-lg shadow-electric/20 text-white font-bold">
-                        V
-                    </div>
-                    <span className="text-white font-bold text-xl tracking-tight hidden md:block">Vendax Systems Labs</span>
+                    <img src="/logo.png" alt="Vendax Logo" className="h-10 w-auto" />
+                    <span className="text-white font-bold text-xl tracking-tight block ml-2">Vendax Systems Labs</span>
                 </Link>
 
                 {/* Desktop Nav */}
@@ -77,11 +75,10 @@ export default function Header() {
                         </Link>
                     ))}
                     <a
-                        href="https://expertresume.us"
-                        target="_blank"
+                        href="#"
                         className="bg-electric hover:bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-semibold transition-all hover:shadow-[0_0_15px_rgba(37,99,235,0.4)]"
                     >
-                        Launch App
+                        Contact Sales
                     </a>
                 </nav>
 
