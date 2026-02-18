@@ -22,9 +22,10 @@ export default function Header() {
     const navLinks = [
         { name: "Home", href: "/#hero" },
         { name: "Products", href: "/#products" },
-        { name: "Services", href: "/#services" },
+        { name: "Team", href: "/#team" },
+        { name: "Blog", href: "/blog" },
         { name: "About", href: "/about" },
-        { name: "Contact", href: "/contact" },
+        { name: "Contact", href: "/#contact" },
     ];
 
     const handleNavClick = (e, href) => {
